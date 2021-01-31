@@ -1,0 +1,13 @@
+D:\IT\C#\WaterState\bin\Debug\netcoreapp3.1\WaterState.exe
+D:\IT\C#\WaterState\bin\Debug\netcoreapp3.1\WaterState.deps.json
+D:\IT\C#\WaterState\bin\Debug\netcoreapp3.1\WaterState.runtimeconfig.json
+D:\IT\C#\WaterState\bin\Debug\netcoreapp3.1\WaterState.runtimeconfig.dev.json
+D:\IT\C#\WaterState\bin\Debug\netcoreapp3.1\WaterState.dll
+D:\IT\C#\WaterState\bin\Debug\netcoreapp3.1\WaterState.pdb
+D:\IT\C#\WaterState\obj\Debug\netcoreapp3.1\WaterState.csprojAssemblyReference.cache
+D:\IT\C#\WaterState\obj\Debug\netcoreapp3.1\WaterState.AssemblyInfoInputs.cache
+D:\IT\C#\WaterState\obj\Debug\netcoreapp3.1\WaterState.AssemblyInfo.cs
+D:\IT\C#\WaterState\obj\Debug\netcoreapp3.1\WaterState.csproj.CoreCompileInputs.cache
+D:\IT\C#\WaterState\obj\Debug\netcoreapp3.1\WaterState.dll
+D:\IT\C#\WaterState\obj\Debug\netcoreapp3.1\WaterState.pdb
+D:\IT\C#\WaterState\obj\Debug\netcoreapp3.1\WaterState.genruntimeconfig.cache
