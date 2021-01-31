@@ -17,7 +17,6 @@ namespace WaterState
         public override void Boil()
         {
             Console.WriteLine("State : Gas");
-            this._context.TransitionTo(new SolidState());
         }
     }
 }
