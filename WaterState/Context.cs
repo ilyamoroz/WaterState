@@ -14,7 +14,7 @@ namespace WaterState
         }
         public void TransitionTo(State state)
         {
-            Console.WriteLine($"Context: Transition to {state.GetType().Name}.");
+            Console.WriteLine($"Water: Change on {state.GetType().Name}.");
             this._state = state;
             this._state.SetContext(this);
         }
