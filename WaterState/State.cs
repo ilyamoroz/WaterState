@@ -4,17 +4,22 @@ using System.Text;
 
 namespace WaterState
 {
-    abstract class State
+    class State
     {
-        protected Context _context;
-        public void SetContext(Context context)
+        public IWaterState currentState { get; set; }
+
+        public State(IWaterState waterState)
         {
-            this._context = context;
+            currentState = waterState;
         }
-        public abstract void Unfreeze();
 
-        public abstract void HeatUp();
-
-        public abstract void Boil();
+        public void Heat()
+        {
+            currentState.Heat(this);
+        }
+        public void Frost()
+        {
+            currentState.Frost(this);
+        }
     }
 }

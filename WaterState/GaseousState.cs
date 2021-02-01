@@ -4,19 +4,17 @@ using System.Text;
 
 namespace WaterState
 {
-    class GaseousState : State
+    class GaseousState : IWaterState
     {
-        public override void Unfreeze()
+        public void Heat(State water)
         {
-            Console.WriteLine("Unfreeze");   
+            Console.WriteLine("Heat up gas");
         }
-        public override void HeatUp()
+
+        public void Frost(State water)
         {
-            Console.WriteLine("Heat Up");
-        }
-        public override void Boil()
-        {
-            Console.WriteLine("State : Gas");
+            Console.WriteLine("Turning gas into liquid");
+            water.currentState = new LiquidState();
         }
     }
 }

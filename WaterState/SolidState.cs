@@ -2,20 +2,17 @@
 
 namespace WaterState
 {
-    class SolidState : State
+    class SolidState : IWaterState
     {
-        public override void Unfreeze()
+        public void Heat(State water)
         {
-            Console.WriteLine("State : Solid");
-            this._context.TransitionTo(new LiquidState());
+            Console.WriteLine("Turning ice into liquid");
+            water.currentState = new LiquidState();
         }
-        public override void HeatUp()
+
+        public void Frost(State water)
         {
-            Console.WriteLine("Heat Up");
-        }
-        public override void Boil()
-        {
-            Console.WriteLine("Boil");
+            Console.WriteLine("Freeze ice");
         }
     }
 }
